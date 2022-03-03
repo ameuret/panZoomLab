@@ -17,5 +17,14 @@ This project uses [Poetry](https://python-poetry.org "At last python has more or
 
 ## Run
 
-`poetry run python panzoomlab_pyxel/main.py`
+In order to completely isolate your environment, you should run this project under Poetry's managed environment:
+
+Either in a separate shell spawned by Poetry:
+
+```
+poetry shell
+python panzoomlab_pyxel/main.py
+```
+
+Or directly through the run command: `poetry run python panzoomlab_pyxel/main.py`
 
